@@ -12,6 +12,8 @@ Die Einführung ins Daten-Komprimieren war interessant und ich konnte mit Samuel
 
 ### 3. 4.3.2024
 
+Ich hatte bei der Prüfung ein gutes Gefühl ich finde einfach das 9 Punkte zu wenig sind, da man bei einem Fehler direkt eine 5,4 hat.
+
 ### 4. 11.3.2024
 
 ### 5. 18.3.2024
