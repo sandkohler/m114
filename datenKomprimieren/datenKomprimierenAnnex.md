@@ -92,4 +92,140 @@ print(decoded_word) # Nasenbaerjunges
 
 ## 3. RLC
 
-1 Blau
+Mit 5 Bit kann man eine Linie Pixel vom Bild darstellen, wäre es 1 Bit oder kein Bit, da man einfach die Farbe angeben kann.
+
+10100Gelb
+1011Gelb, 10Schwarz, 111Gelb
+
+10100Blau
+1011Blau, 1Rot, 1Schwarz, 111Blau
+100Blau, 10Rot, 1Schwarz, 10Blau, 101Rot, 1Schwarz,5Blau
+
+1Blau
+
+## 4. RLC
+
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+def decode_rlc(rlc):
+    color = 0
+    matrix = [[0 for _ in range(8)] for _ in range(8)]
+    row = col = 0
+
+    for char in rlc:
+        for _ in range(int(char)):
+            matrix[row][col] = color
+            col += 1
+            if col == 8:
+                col = 0
+                row += 1
+        color = 1 - color
+
+    return matrix
+
+rlc = "010100011110010010010010010010010010010110010110010010010010010010010010001"
+matrix = decode_rlc(rlc)
+
+plt.imshow(matrix, cmap='gray', vmin=0, vmax=1)
+plt.show()
+```
+
+Skript hat nicht funktioniert.
+
+## 5. LZW-Verfahren
+
+### a
+
+LZW Codierung
+
+```python
+def lzw_encode(input_string):
+    dictionary = {chr(i): i for i in range(256)}
+    p = ""
+    result = []
+    for c in input_string:
+        pc = p + c
+        if pc in dictionary:
+            p = pc
+        else:
+            result.append(dictionary[p])
+            dictionary[pc] = len(dictionary)
+            p = c
+    if p:
+        result.append(dictionary[p])
+    return result
+
+word = "ANANAS"
+lzw_code = lzw_encode(word)
+print("LZW Code for the word:", lzw_code)
+# LZW Code for the word: [65, 78, 256, 65, 83]
+```
+
+### b
+
+```python
+def lzw_decompress(compressed):
+    dict_size = 256
+    dictionary = {i: chr(i) for i in range(dict_size)}
+
+    w = chr(compressed[0])
+    result = w
+
+    for k in compressed[1:]:
+        if k in dictionary:
+            entry = dictionary[k]
+        else:
+            entry = w + w[0]
+
+        result += entry
+
+        dictionary[dict_size] = w + entry[0]
+        dict_size += 1
+
+        w = entry
+
+    return result
+
+lzw_code = [ord(c) for c in "ERDBE"] + [256] + [ord(c) for c in "KL"] + [260]
+print(lzw_decompress(lzw_code))  # ERDBEERKLEE
+```
+
+## 6. BWT (Burrows-Wheeler-Transformation)
+
+```python
+def bwt(s):
+    s = s + "$"
+    table = sorted(s[i:] + s[:i] for i in range(len(s)))
+    last_column = [row[-1] for row in table]
+    return "".join(last_column)
+
+def ibwt(r):
+    table = [""] * len(r)
+    for _ in range(len(r)):
+        table = sorted(r[i] + table[i] for i in range(len(r)))
+    s = [row for row in table if row.endswith("$")][0]
+    return s.rstrip("$")
+
+# a
+original = "ANANAS"
+transformed = bwt(original)
+reversed_transform = ibwt(transformed)
+
+print(f"Original: {original}")
+print(f"Transformed: {transformed}")
+print(f"Reversed: {reversed_transform}")
+
+# b
+transformed = "IICRTGH6"
+reversed_transform = ibwt(transformed)
+print(f"Transformed: {transformed}")
+print(f"Reversed: {reversed_transform}")
+```
+
+Skript hat nicht funktioniert.
+
+## 6. ZIP-Komprimierung
+
+## 7
