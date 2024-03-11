@@ -16,6 +16,8 @@ Ich hatte bei der Prüfung ein gutes Gefühl ich finde einfach das 9 Punkte zu w
 
 ### 4. 11.3.2024
 
+Die heutige Prüfung lief besser als die letzte, so ist jedenfalls mein Gefühl bevor ich das Ergebniss von der zweiten Prüfung weiss. Bei der LB1 habe ich einen dummen Fehler gemacht, da ich dachte, dass ich mit 10 Bits einen höheren Wert anzeigen kann als 1024, was logischerweise nicht funktioniert. Heute habe ich einiges neues gelernt, was ich noch nicht wusste, was ich interessant fande.
+
 ### 5. 18.3.2024
 
 ### 6. 25.3.2024
