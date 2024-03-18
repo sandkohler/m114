@@ -20,6 +20,8 @@ Die heutige Prüfung lief besser als die letzte, so ist jedenfalls mein Gefühl 
 
 ### 5. 18.3.2024
 
+Ich fande die Demo zu Analog/Digital-Wandlung gut, auch wenn die Lautsprecher nicht sehr gut sind konnte man einige Unterschiede hören. Ich fand es interessant das unser Menschliches-Auge sehr Farbempfindlich ist und deshalb bei Schwarz/Weiss respektive bei Graustuffen nicht die gleiche Menge an Rot, Grün und Blau benötigt.
+
 ### 6. 25.3.2024
 
 **1.4.2024 Schulausfall Ostermontag**
