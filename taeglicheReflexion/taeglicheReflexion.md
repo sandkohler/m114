@@ -24,6 +24,8 @@ Ich fande die Demo zu Analog/Digital-Wandlung gut, auch wenn die Lautsprecher ni
 
 ### 6. 25.3.2024
 
+Die Symmetrischen sowie Asymmetrischen Verschlüsselungen
+
 **1.4.2024 Schulausfall Ostermontag**
 
 ### 7. 8.4.2024
