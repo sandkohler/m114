@@ -20,7 +20,11 @@ Die heutige Prüfung lief besser als die letzte, so ist jedenfalls mein Gefühl 
 
 ### 5. 18.3.2024
 
+Ich fande die Demo zu Analog/Digital-Wandlung gut, auch wenn die Lautsprecher nicht sehr gut sind konnte man einige Unterschiede hören. Ich fand es interessant das unser Menschliches-Auge sehr Farbempfindlich ist und deshalb bei Schwarz/Weiss respektive bei Graustuffen nicht die gleiche Menge an Rot, Grün und Blau benötigt.
+
 ### 6. 25.3.2024
+
+Die Symmetrischen sowie Asymmetrischen Verschlüsselungen, welche wir angeschaut haben kannte ich schon zum Teil, es gab aber auch Dinge die ich noch nicht wusste. Ausserdem fand ich das CrypTool interessant, da ich so ein Tool nutzen konnte und nicht alles von Hand machen musste. Bei der Prüfung fand ich die letzte Aufgabe unfair, da wir es nicht wirklich im Unterricht angeschaut haben.
 
 **1.4.2024 Schulausfall Ostermontag**
 
