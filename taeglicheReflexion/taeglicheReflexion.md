@@ -24,7 +24,7 @@ Ich fande die Demo zu Analog/Digital-Wandlung gut, auch wenn die Lautsprecher ni
 
 ### 6. 25.3.2024
 
-Die Symmetrischen sowie Asymmetrischen Verschlüsselungen
+Die Symmetrischen sowie Asymmetrischen Verschlüsselungen, welche wir angeschaut haben kannte ich schon zum Teil, es gab aber auch Dinge die ich noch nicht wusste. Ausserdem fand ich das CrypTool interessant, da ich so ein Tool nutzen konnte und nicht alles von Hand machen musste. Bei der Prüfung fand ich die letzte Aufgabe unfair, da wir es nicht wirklich im Unterricht angeschaut haben.
 
 **1.4.2024 Schulausfall Ostermontag**
 
