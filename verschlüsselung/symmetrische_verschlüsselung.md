@@ -1,0 +1,34 @@
+# Symmetrische Verfahren
+
+Es wird immer der selbe Schlüssel verwendet (Entschlüsselung sowie Verschlüsselung)
+
+DER ANGRIFF ERFOLGT ZUR TEEZEIT DIE WUERFEL SIND GEFALLEN ICH KAM
+SAH UND SIEGTE TEILE UND HERRSCHE
+
+Für BEEF und AFFE:
+
+- B + A = C
+- E + F = K
+- E + F = K
+- F + E = R
+= CKKR
+
+Für WRKXQT und SECRET:
+
+- W - S = E
+- R - E = R
+- K - C = O
+- X - R = E
+- Q - E = L
+- T - T = A
+= EROLEA
+
+ROY
+DER STAAT BIN ICH ES IST AEUSSERST SCHWIERIG ZU REDEN OHNE VIEL ZU
+SAGEN ICH MACHE MIT JEDER ERNENNUNG NEUNUNDNEUNZIG UNZUFRIEDENE UND
+EINEN UNDANKBAREN LOUIS XIV
+
+4711
+1000'1101
+XOR
+$7 0
