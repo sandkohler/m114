@@ -5,10 +5,12 @@
 ### 1. Wie kann ich einen Public-Key verifizieren?
 
 Dazu benötigt man den dazugehörigen Fingerabdruck, dieser ist der Hash des Publik-Keys und dient zur Überprüfung der Integrität des Keys.
+Bei einer Zertifizierungsstelle.
 
 ### 2. Was versteht man unter Public Key Infrastruktur (PKI)?
 
 Public Key Infrastruktur (PKI) ist ein System von Hardware, Software, Personen, Richtlinien und Verfahren, das zur Verwaltung von Public-Key-Zertifikaten und zur Absicherung der Kommunikation zwischen zwei Parteien verwendet wird.
+System, das dgitale Zertifikate ausstellen, verteilen und prüfen kann.
 
 ### 3. Was bedeutet Certification-Authority (CA) und was Trust-Center (TC)?
 
@@ -51,10 +53,12 @@ Es werden andere Zertifikate verwendet.
 #### Was genau wird hier zu welchen Konditionen angeboten?
 
 CAcert bietet kostenlose Zertifikate an, während Let's Encrypt kostenlose Domain-Validated-Zertifikate anbietet. Let's Encrypt-Zertifikate sind automatisiert und haben eine begrenzte Gültigkeitsdauer.
+Cacert ist kostenpflichtig und klärt die Identität des Antragssteller seriös ab.
 
 ### 12. Folgende TLS Zertifikatsarten werden unterschieden: Domain Validated, Organization Validated und Extended Validation. Sie möchten einen Webshop betreiben, wo mit Kreditkarte bezahlt werden kann. Welcher Zertifikatstyp ist der richtige?
 
 Für einen Webshop, wo mit Kreditkarten bezahlt wird, ist ein Extended Validation (EV) Zertifikat der richtige Typ, da es die höchste Validierungsebene bietet und das höchste Maß an Sicherheit und Vertrauen für Kunden bietet.
+Soll absolut vertrauenswürdig werden, dann Extended Validation.
 
 ### 13. Studieren sie den Beitrag auf der Webseite Let's Encrypt "Wie es funktioniert"
 
@@ -63,6 +67,7 @@ Für einen Webshop, wo mit Kreditkarten bezahlt wird, ist ein Extended Validatio
 #### Was ist der Unterschied zwischen OpenPGP und X.509?
 
 OpenPGP und X.509 sind verschiedene Standards für die Verschlüsselung und Authentifizierung. OpenPGP ist ein Verschlüsselungsstandard für E-Mails, während X.509 ein Standard für die Zertifikatshierarchie und Authentifizierung im Web ist.
+Die Zertifikate sind verschieden und untereinander nicht kompatibel.
 
 ### 14. Erklären sie den Aufruf einer sicheren Webseite. (HTTPS) Wie ist der Ablauf beim Protokoll TLS? Wo genau kommen die Zertifikate ins Spiel?
 
