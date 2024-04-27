@@ -30,6 +30,8 @@ Die Symmetrischen sowie Asymmetrischen Verschlüsselungen, welche wir angeschaut
 
 ### 7. 8.4.2024
 
+Zu Beginn haben wir die Themen vom letzten Mal repetiert, ich persönlich finde diese Repetition am Anfang der Lektion gut, da man so gut wieder ins Thema kommt und das Hirn wieder anfangen kann zu denken am Montag Morgen. Ich kannte Wireshark ein tolles Tool, was ich auch schon für andere Dinge gebraucht habe und finde es einfach interessant damit Dinge zu machen.
+
 ### 15.4.2024 Schulausfall Sechseläuten ZH
 
 ### 22.4.2024 und 29.4.2024  Schulausfall Frühlingsferien
