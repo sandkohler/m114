@@ -37,3 +37,5 @@ Zu Beginn haben wir die Themen vom letzten Mal repetiert, ich persönlich finde 
 ### 22.4.2024 und 29.4.2024  Schulausfall Frühlingsferien
 
 ### 8. 6.5.2024
+
+Ich konnte meine E-Mail in Thunderbird einrichten.
