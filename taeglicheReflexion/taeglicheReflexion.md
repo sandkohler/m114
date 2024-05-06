@@ -38,4 +38,4 @@ Zu Beginn haben wir die Themen vom letzten Mal repetiert, ich persönlich finde 
 
 ### 8. 6.5.2024
 
-Ich konnte meine E-Mail in Thunderbird einrichten.
+Ich konnte meine E-Mail in Thunderbird einrichten, anschliessend meine Nachrichten verschlüsseln und verschicken. Was mir heute gefiel war das wir am Ende ein kurzes mündliches Feedback geben durften.
